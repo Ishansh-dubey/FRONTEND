@@ -1,0 +1,61 @@
+/*TYPE SELECTOR (select individual)*/
+
+h1{
+    color: aqua;
+}
+p{
+    color: blue;
+}
+
+
+/*ELEMENT SELECTOR (selecting group)*/
+
+body{
+    color: burlywood;
+}
+h1,h2{
+    color: blueviolet;
+}
+
+
+/*ID SELECTOR (id should be unique)*/
+
+#heading{
+    color: green;
+    background-color: black;
+}
+#subheading{
+    color: brown;
+    background: greenyellow;
+}
+
+/* CLASS SELECTOR*/
+
+.green{
+    color: green;
+}
+.red{
+    color: red;
+    background: grey;
+}
+
+
+
+/* CLASS SELECTOR AND ID SELCTOR (COMBINING THEM)*/
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+    background: grey;
+}
+
+#title {
+    font-size: 40px;
+}
+
+.lowecase{
+    text-transform:lowercase ;
+}
