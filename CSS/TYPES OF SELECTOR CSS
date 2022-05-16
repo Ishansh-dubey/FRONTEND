@@ -59,3 +59,13 @@ h1,h2{
 .lowecase{
     text-transform:lowercase ;
 }
+
+
+/*DIV SPAN (for grouping)*/
+div{
+    color: royalblue;
+    background: goldenrod;
+}
+span{
+    text-transform: uppercase;
+}
